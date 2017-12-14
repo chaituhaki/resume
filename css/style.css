@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    margin: 1% 5%;
+}
+
+.contact-span {
+    margin: 0 10px 0 10px;
+}
+
+header {
+    text-align: center;
+}
+
+.address .name .ph-email {
+    margin: 10px;
+}
+
+.name {
+    color: #0c91a4;
+    font-size: 2em;
+}
+
+.education, .skills, .experience , .projects{
+    margin-top: 10px;
+}
+
+.line {
+    border-bottom: 2px solid #0c91a4;
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: #0c91a4;
+}
+
+.fa {
+    color: #0c91a4;
+}
+
+.college-flex {
+    margin-top: 5px;
+    display: flex;
+    font-weight: bold;
+}
+
+.degree-flex {
+    display: flex;
+}
+
+.university-name {
+    margin: 2px;
+    flex: 3;
+    text-align: left;
+}
+
+.university-loc {
+    margin: 2px;
+    flex: 1;
+    text-align: right;
+}
+
+.college-name {
+    flex: 3;
+}
+
+.college-loc {
+    flex: 1;
+    text-align: right;
+}
+
+.degree-name {
+    margin: 2px 25px;
+    flex: 3;
+    text-align: left;
+}
+
+.degree-year {
+    margin: 2px;
+    flex: 1;
+    text-align: right;
+}
+
+.list {
+    margin-left: 25px;
+}
+
+.company, .position {
+    font-weight: bold;
+}
+
+.project {
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+.accounts {
+    text-align: right;
+}
+
+.accounts>span {
+    margin-left: 5px;
+}
