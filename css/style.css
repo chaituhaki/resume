@@ -25,7 +25,7 @@ header {
     font-size: 2em;
 }
 
-.education, .skills, .experience , .projects{
+.education, .experience , .projects{
     margin-top: 10px;
 }
 
@@ -48,7 +48,7 @@ h3 {
     font-weight: bold;
 }
 
-.degree-flex {
+.degree-flex, .company-flex {
     display: flex;
 }
 
@@ -73,13 +73,13 @@ h3 {
     text-align: right;
 }
 
-.degree-name {
+.degree-name .company{
     margin: 2px 25px;
     flex: 3;
     text-align: left;
 }
 
-.degree-year {
+.degree-year, .exp {
     margin: 2px;
     flex: 1;
     text-align: right;
@@ -95,7 +95,7 @@ h3 {
 
 .project {
     margin-top: 5px;
-    font-size: 1.2em;
+    font-weight: bold;
 }
 
 .accounts {
@@ -104,4 +104,8 @@ h3 {
 
 .accounts>span {
     margin-left: 5px;
+}
+
+.exp {
+    text-align: right;
 }
